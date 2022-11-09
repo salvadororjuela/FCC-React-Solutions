@@ -1,0 +1,10 @@
+class Colorful extends React.Component {
+  render() {
+    return (
+      <div style={{color: "red", fontSize: "72px"}}>
+        Big Red
+        {/* If the value of the property is represented with the px units, this value must be included into quotation marks, else if it is just a number this can be writen without quotation marks */}
+      </div>
+    );
+  }
+};
